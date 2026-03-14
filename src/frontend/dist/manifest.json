@@ -1,0 +1,77 @@
+{
+  "name": "HASSANé Collections",
+  "short_name": "HASSANé",
+  "description": "Premium fashion brand offering curated collections for men, women, and kids. Shop the latest trends in clothing, accessories, and footwear.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#404040",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/generated/hassane-app-icon-small-transparent.dim_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/generated/hassane-app-icon-transparent.dim_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/assets/generated/mobile-splash-screen.dim_375x812.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "HASSANé Collections Mobile App"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shop",
+      "short_name": "Shop",
+      "description": "Browse all products",
+      "url": "/shop",
+      "icons": [
+        {
+          "src": "/assets/generated/hassane-app-icon-small-transparent.dim_192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "short_name": "Cart",
+      "description": "View shopping cart",
+      "url": "/cart",
+      "icons": [
+        {
+          "src": "/assets/generated/hassane-app-icon-small-transparent.dim_192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Favorites",
+      "short_name": "Favorites",
+      "description": "View saved items",
+      "url": "/favorites",
+      "icons": [
+        {
+          "src": "/assets/generated/hassane-app-icon-small-transparent.dim_192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
